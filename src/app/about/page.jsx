@@ -1,3 +1,4 @@
+// eslint no-use-before-define: 0 --> OFF
 "use client";
 import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
