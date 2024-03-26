@@ -17,17 +17,16 @@ const ContactPage = () => {
 
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
-        form.current,
-        process.env.NEXT_PUBLIC_PUBLIC_KEY
-      )
+        process.env.NEXT_PUBLIC_SERVICE_ID, 
+        process.env.NEXT_PUBLIC_TEMPLATE_ID, 
+        form.current, 
+        process.env.NEXT_PUBLIC_PUBLIC_KEY)
       .then(
-        () => {
+        (result) => {
           setSuccess(true);
           form.current.reset();
         },
-        () => {
+        (error) => {
           setError(true);
         }
       );
@@ -50,9 +49,9 @@ const ContactPage = () => {
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
                 transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  delay: index * 0.1,
+                duration: 3,
+                repeat: Infinity,
+                delay: index * 0.1,
                 }}
               >
                 {letter}
@@ -63,9 +62,9 @@ const ContactPage = () => {
         </div>
         {/* FORM CONTAINER */}
         <form
-          onSubmit={sendEmail}
-          ref={form}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
+        onSubmit={sendEmail}
+        ref={form}
+        className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
           <span>Hy fellas,</span>
           <textarea
@@ -80,9 +79,11 @@ const ContactPage = () => {
             className="bg-transparent border-b-2 border-b-black outline-none"
           />
           <span>Regards</span>
+
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
             Send
           </button>
+      
           {success && (
             <span className="text-green-600 font-semibold">
               Your message has been sent successfully!
