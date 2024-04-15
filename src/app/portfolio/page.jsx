@@ -18,7 +18,7 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Cheesy Cravings",
     desc: "This Website tailored exclusively for pizza aficionados like you! Dive into a seamless online experience designed to tantalize your taste buds and simplify your ordering process. Our freshly baked website serves up a delightful blend of mouthwatering visuals and intuitive navigation, ensuring that every click brings you closer to pizza perfection..",
-    img: "https://i.imgur.com/vuMrNt2.png",
+    img: "https://files.catbox.moe/k193dh.png",
     link: "https://github.com/sakthivigneswar/CheesyCravings",
   },
   {
@@ -26,7 +26,7 @@ const items = [
     color: "from-violet-300 to-purple-300",
     title: "Speech Text Reader",
     desc: "website designed to revolutionize the way we interact with written content - the Speech Text Reader. With meticulous attention to detail and a passion for accessibility, I've crafted a user-friendly platform that seamlessly converts written text into spoken words. Gone are the days of straining your eyes to read lengthy articles or struggling to decipher complex passages..",
-    img: "https://i.imgur.com/ClUxaKk.png",
+    img: "https://files.catbox.moe/gv9lpz.png",
     link: "https://github.com/sakthivigneswar/speech_text",
   },
   {
@@ -34,7 +34,7 @@ const items = [
     color: "from-purple-300 to-red-300",
     title: "Quiz app",
     desc: "dynamic website meticulously crafted to host an engaging quiz app experience like no other. This innovative platform is the brainchild of a passionate developer determined to revolutionize the way we interact with quizzes online.",
-    img: "https://i.imgur.com/mlgQvGf.png",
+    img: "https://files.catbox.moe/gije1x.png",
     link: "https://github.com/sakthivigneswar/quiz_app",
   },
 ];
