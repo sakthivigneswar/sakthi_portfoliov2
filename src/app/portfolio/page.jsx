@@ -10,7 +10,7 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "FLEX FIT",
     desc: "This swebsite meticulously crafted to complement your fitness journey at FLEX FIT. Dive into a seamless online experience designed to inspire, inform, and empower. Explore our comprehensive class schedules, discover personalized training programs, and engage with our vibrant community like never before..",
-    img: "https://i.imgur.com/rwbpwDw.png",
+    img: "https://files.catbox.moe/3u5067.png",
     link: "https://github.com/sakthivigneswar/FIT_FLEX",
   },
   {

@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "i.imgur.com", // Use imgur hostname
+        hostname: "files.catbox.moe", // Updated hostname
       },
     ],
   },
