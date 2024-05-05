@@ -229,7 +229,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  Both my SSC and HSC studies have been successfully completed within the Matriculation educational structure {" "}
+                  Both my SSLC and HSC studies have been successfully completed within the Matriculation educational structure {" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -299,7 +299,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2023 - Present {" "}
+                    2024 - Present {" "}
                   </div>
                 </div>
                 {/* CENTER */}
